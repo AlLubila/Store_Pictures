@@ -1,0 +1,70 @@
+.myh1{
+   font-size:x-large;
+   text-align: center;
+   margin: 40px 0;
+}
+
+.main{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   padding:0 5%;
+}
+
+.right{
+    text-align: right;
+}
+
+.p{
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.input{
+    font-size: 17px;
+    font-weight:300;
+    margin-bottom: 10px;
+   
+}
+
+.frameBefore{
+    width: 500px;
+    height: 450px;
+    background-color: rgb(206, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frameAfter{
+    width: 500px;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+}
+
+.previewImage{
+   max-width: 100%;
+   max-height: 100%;
+   object-fit: contain;
+   position: absolute;
+}
+
+
+.storeBtn, .cancelBtn{
+    border: none;
+    padding: 10px 30px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.storeBtn{
+    background-color: #127FFF;
+    font-weight: bold;
+}
+.cancelBtn{
+    margin-left: 10px;
+    background-color: #80736C;
+    color: white;
+    font-weight: 700;
+}
+
